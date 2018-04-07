@@ -1,0 +1,38 @@
+{
+  "name": "us-weather-cli",
+  "version": "1.0.1",
+  "description": "Get the current day's weather and a 5-day forecast for a specified U.S. zip code.",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "weather": "./bin/module.js"
+  },
+  "preferGlobal": true,
+  "keywords": [
+    "cli-app",
+    "cli",
+    "weather",
+    "temperature",
+    "weather-app",
+    "weather-forecast",
+    "weather-data",
+    "forecast"
+  ],
+  "author": "Tynan DeBold <thdebold@gmail.com> (https://www.tynandebold.com/)",
+  "license": "ISC",
+  "engines": {
+    "node": ">=8.4.0",
+    "npm": ">=3.8.6"
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "inquirer": "^5.1.0",
+    "moment": "^2.20.1",
+    "node-emoji": "^1.8.1",
+    "node-fetch": "^2.0.0",
+    "yargs": "^11.0.0",
+    "zipcodes": "^6.0.0"
+  }
+}
