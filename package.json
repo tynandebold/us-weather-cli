@@ -21,6 +21,7 @@
     "forecast"
   ],
   "author": "Tynan DeBold <thdebold@gmail.com> (https://www.tynandebold.com/)",
+  "repository": "github:tynandebold/us-weather-cli",
   "license": "ISC",
   "engines": {
     "node": ">=8.4.0",
