@@ -33,7 +33,7 @@
     "moment": "^2.20.1",
     "node-emoji": "^1.8.1",
     "node-fetch": "^2.0.0",
-    "yargs": "^11.0.0",
+    "yargs": "^17.7.1",
     "zipcodes": "^6.0.0"
   }
 }
